@@ -1,7 +1,11 @@
 <template>
-  <div id='footer'>
-    <footer>
-      Copyright(c)
-    </footer>
-  </div>
+  <footer>
+    Copyright(c)
+  </footer>
 </template>
+
+<style scoped>
+footer {
+  background-color: azure;
+}
+</style>
