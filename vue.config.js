@@ -1,11 +1,5 @@
-
-/*
 module.exports = {
-    configureWebpack: {
-        module: {
-            rules: [
-            ]
-        }
-    }
-}
-*/
+  configureWebpack: {
+    entry: "./src/typing-main.js"
+  }
+};
