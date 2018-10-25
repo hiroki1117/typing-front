@@ -13,7 +13,8 @@
 export default {
   data() {
     return {
-      orinalcode: `this is Sample`,
+      orinalcode: `this is Sample.
+How are you`,
       typindex: 0
     };
   },
@@ -27,8 +28,10 @@ export default {
   },
   methods: {
     typHandler(event) {
-      const c1 = this.codeArry[this.typindex];
-      if (event.key === c1) {
+      event.preventDefault();
+      const c = this.codeArry[this.typindex];
+      const key = event.key === "Enter" ? "\n" : event.key;
+      if (key === c) {
         this.typindex++;
       }
     }
