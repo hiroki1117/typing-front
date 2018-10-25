@@ -7,5 +7,6 @@
 <style scoped>
 footer {
   background-color: azure;
+  text-align: center;
 }
 </style>

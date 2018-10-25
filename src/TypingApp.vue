@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <typ-header id="header"></typ-header>
-    <div id="main-section">
-      <typ-board id="board"></typ-board>
+    <div id="main-section" class="columns is-centered">
+      <typ-board id="board" class="column is-8"></typ-board>
     </div>    
     <typ-footer id="footer"></typ-footer>
   </div>
@@ -50,13 +50,11 @@ body {
 }
 
 #main-section {
-  text-align: center;
 }
 
 #board {
   width: 70%;
   height: 700px;
   margin-top: 2em;
-  display: inline-block;
 }
 </style>
