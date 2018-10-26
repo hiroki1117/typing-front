@@ -1,5 +1,5 @@
 import Vue from "vue";
-import TypingApp from "./TypingApp.vue";
+import TypingPage from "./pages/TypingPage.vue";
 import tstore from "./typing-store";
 import Buefy from "buefy";
 import "buefy/dist/buefy.css";
@@ -9,5 +9,5 @@ Vue.config.productionTip = false;
 
 new Vue({
   store: tstore,
-  render: h => h(TypingApp)
+  render: h => h(TypingPage)
 }).$mount("#app");
